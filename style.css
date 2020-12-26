@@ -1,0 +1,254 @@
+/*general*/
+:root {
+    font-size: 16px;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Raleway", sans-serif;
+    max-width: 375px;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+/*general*/
+
+/*header*/
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 50px 20px 40px 20px;
+}
+
+.header-logo img {
+    height: 45px;
+    width: 100px;
+}
+
+.header-nav {
+    border-bottom: 2px solid #f2f2f2 ;
+    margin-bottom: 35px;
+}
+
+.header-item {
+    height: 20px;
+    color: #0065fc;
+    font-weight: bold;
+}
+
+.header-item:hover {
+    color: #0065fc;
+    border-bottom: 2px solid #0065fc;
+}
+
+.header-nav-ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-items.active {
+    color: #0065fc;
+    border-bottom: 2px solid #0065fc;
+    margin-left: 40px;
+    padding-bottom: 15px;
+    margin-bottom: -2px;
+    width: 100%;
+}
+
+.header-items.active:before{
+    border-bottom: 2px solid #0065fc;
+}
+
+.header-items {
+    margin-right: 65px;
+}
+
+.header-items:hover{
+    color: #0065fc;
+    border-bottom: 2px solid #0065fc;
+}
+/*header*/
+
+/*main*/
+
+    /*section-menu*/
+.menu {
+    margin: 20px;
+
+}
+
+.title h1 {
+    margin-right: 50px;
+    margin-bottom: 15px;
+    font-size: 1.3rem;
+    font-weight: 700;
+}
+
+.title p {
+    margin-bottom: 40px;
+    font-size: 16;
+}
+
+    /*search-bar*/
+.search-bar {
+    position: relative;
+    height: 46px;
+    width: 300px;
+    border: 1px solid #f2f2f2;
+    margin: 20px 0 10px 10px
+}
+
+.search-bar input {
+    font-family: "Raleway", sans-serif;
+    font-size: 1.1em;
+    padding: 10px 0px 10px 20px;
+    border: none;
+    margin-bottom: 15px;
+    margin-left: 40px;
+}
+
+.search-bar ::placeholder {
+    color: black;
+    font-weight: 700;
+}
+
+.search-bar .icon {
+    float: left;
+    position: absolute;
+    padding: 16px 14px 14px 17px;
+    background-color: #f2f2f2;
+    border: none;
+    border-top-left-radius: 25%;
+    border-bottom-left-radius: 25%;
+    margin-left: -10px;
+    margin-top: -1px;
+}
+
+.search-bar button {
+    float: right;
+    position: absolute;
+    padding: 13px 15px 13px 14px;
+    margin-left: 13px;
+    margin-top: -1px;
+    background: #0065fc;
+    color: white;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+    border-radius: 25%;
+}
+    /*search-bar*/
+
+    /*filter*/
+.filter {
+    margin-top: 40px;
+    width: 355px;
+    font-size: 17px;
+}
+
+.filter p {
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.filter .filter-menu {
+    width: 355px;
+}
+
+.filter .filter-menu .filter-items {
+    border: 2px solid #d9d9d9;
+    border-radius: 30px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    height: 48px;
+    vertical-align: middle;
+}
+
+.filter .filter-menu .filter-items .icon {
+    color: #0065fc;
+    background-color: #deebff;
+    height: 48px;
+    width: 48px;
+    padding: 18px;
+    border-radius: 50%;
+    margin-right: 15px;
+    font-size: 1.2em;
+    margin: -3px 20px 0 -3px;
+    padding-left: 15px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.filter .filter-menu .filter-items.eco {
+    width: 195px;
+    margin: 0 0 15px -0;
+}
+
+.filter-text {
+    align-items: center;
+}
+
+.filter .filter-menu .filter-items.famille {
+    width: 140px;
+    float:  right;
+    margin-top: -65px;
+    margin-right: 10px;
+}
+
+.filter .filter-menu .filter-items.romantique {
+    width: 190px;
+}
+
+.filter .filter-menu .filter-items.animal {
+    width: 240px;
+}
+
+.filter .filter-menu .filter-text {
+    margin-left: -10px;
+}
+    /*filter*/
+
+.info {
+    margin-top: 30px;
+}
+
+.info-icon {
+    float:  ;
+    color:#0065fc;
+    border: 1px solid #deebff;
+    height: 22px;
+    width: 22px;
+    border-radius: 50%;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 0.7em;
+    padding-top: 3px;
+    margin-right: 10px;
+}
+
+
+/*section-menu*/
+
+    
+
+
+/*main*/
+

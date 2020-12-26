@@ -4,11 +4,11 @@
     <!-- head -->
     <head>
         <meta charset="utf-8">
-        <title></title>
+        <title>reservia</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
         <!-- css -->
-        <link rel="stylesheet" href="css/style.css" >
+        <link rel="stylesheet" href="style.css" >
         <!-- css -->
 
         <!-- font -->
@@ -17,6 +17,8 @@
         <link rel="preconnect" href="https://fonts.gstatic.com">
         <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap" rel="stylesheet"> 
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css" />
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700;800;900&display=swap" rel="stylesheet">
         <!-- font -->
 
     </head>
@@ -28,15 +30,15 @@
     <!-- header -->
     <header>
 
-        <div class="header-logo">
-            <a href="#"><img src="img/reservia.jpg"></a>
-        </div>
+        <ul class="header">
+            <li class="header-logo"><a href="#"><img src="img/reservia.svg"></a></li>
+            <li class="header-item"><a href="#">S'inscrire</a></li>
+        </ul>
 
         <nav class="header-nav">
             <ul class="header-nav-ul">
-                <li class="header-items active"><a href="#">Hébergement</a></li>
+                <li class="header-items active"><a href="#">Hébergements</a></li>
                 <li class="header-items"><a href="#">Activités</a></li>
-                <li class="header-items blue"><a href="#">S'inscrire</a></li>
             </ul>
         </nav>
 
@@ -54,23 +56,23 @@
             </div>
 
             <div class="search-bar">
-                <i class="fas fa-map-marker-alt"></i>
+                <i class="icon fas fa-map-marker-alt"></i>
                 <input type="search" id="search" name="search" placeholder="Marseille, France">
-                <button class="search-button" type="search"><span class="search-text">Recherche</span></button>
+                <button class="search-button" type="search"><i class="fas fa-search"></i></button>
             </div>
 
             <div class="filter">
                 <p>Filtres</p>
                 <ul class="filter-menu">
-                    <li class="filter-items"><a href="#"><i class="fas fa-money-bill-wave"></i><span class="filter-text">Économique</span></a></li>
-                    <li class="filter-items"><a href="#"><i class="fas fa-child"></i><span class="filter-text">Familial</span></a></li>
-                    <li class="filter-items"><a href="#"><i class="fas fa-heart"></i><span class="filter-text">Romantique</span></a></li>
-                    <li class="filter-items"><a href="#"><i class="fas fa-dog"></i><span class="filter-text">Animaux autoridés</span</a></li>
+                    <li class="filter-items eco"><a href="#"><i class="icon fas fa-money-bill-wave"></i><span class="filter-text">Économique</span></a></li>
+                    <li class="filter-items famille"><a href="#"><i class="icon fas fa-child"></i><span class="filter-text">Familial</span></a></li>
+                    <li class="filter-items romantique"><a href="#"><i class="icon fas fa-heart"></i><span class="filter-text">Romantique</span></a></li>
+                    <li class="filter-items animal"><a href="#"><i class="icon fas fa-dog"></i><span class="filter-text">Animaux autorisés</span</a></li>
                 </ul>
             </div>
 
             <div class="info">
-                <i class="fas fa-info"></i>
+                <i class="info-icon fas fa-info"></i>
                 <span class="info-text">Plus de 500 logement sont disponibles dans cette ville</span>
             </div>
 
