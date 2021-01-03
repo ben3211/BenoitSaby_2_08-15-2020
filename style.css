@@ -212,6 +212,7 @@ img {
 }
     /*filter*/
 
+    /*info*/
 .info {
     margin-top: 30px;
 }
@@ -233,6 +234,8 @@ img {
     padding-top: 3px;
     margin-right: 10px;
 }
+    /*info*/
+
 /*section-menu*/
 
 /*section-popular*/
@@ -341,7 +344,7 @@ img {
 }
 
 .more {
-    width: 800px;
+    width: 100%;
     font-weight: bold;
     margin: 35px 20px;
     font-size: 1.2em;
@@ -495,62 +498,153 @@ footer li:hover {
     /*footer*/
 }
 
-@media all and (min-width: 1000px) { 
+@media all and (min-width: 1080px) { 
 
     /*general*/
     body {
         margin: 50px;
+        max-width: 1350px;
+    }
+
+    #main {
+        max-width: 1350px;
     }
     /*general*/
 
     /*header*/
 
-    header {
-        display: flex;
-        justify-content: space-between;
-    }
 
-    .header {
-        display: flex;
-        justify-content: space-between;
-    }
-
-
-
-
-    /*.header-item {
+    .header-item {
         margin-right: 25px;;
     }
 
     .header-nav-ul {
         position: absolute;
         top: 0%;
-        left: 70%;
+        right: 15%;
         height: 100px;
-        width: 3
+        width: 30%;
     }
 
     .header-items.active {
         border-bottom: none;
         border-top: 3px solid #0065fc;
-        padding-top: 60px;
+        padding-top: 62px;
     }
     
     .header-items-activity {
         border-bottom: none;
-        padding-top: 60px;
+        padding-top: 65px;
     }
 
     .header-items-activity:hover {
-        border-top: 3px solid #0065fc; 
+        border-bottom: none;
     }
-
     /*header*/
 
-     /*footer*/
+    /*section-menu*/
+    .filter {
+        display: flex;
+        width: 950px;
+    } 
+
+    .filter p {
+        margin: 15px;
+    }
+
+    .filter .filter-items.romantique {
+        margin-right: 0px;
+    }
+    /*section-menu*/
+
+    /*aside-popular*/
+    .popular {
+        margin-top: 0;
+        margin-left: 40px;
+        height: 618px;
+    }
+
+    .popular-card {
+        margin: 25px;
+    }
+
+    /*aside-popular*/
+
+    /*section-hostel*/
+    .hostel {
+        background-color: #f2f2f2;
+        border-radius: 25px;
+        max-width: 880px;
+        margin-right: 40px;
+        margin-left: 20px;
+    }
+
+    .hostel h2 {
+        width: 100%;
+        text-align: left;
+        margin-left: 40px;
+        margin-top: 20px;
+    }
+
+    .hostel-card {
+        background-color: white;
+    }
+
+    .hostel-card-info {
+        background-color: white;
+        text-align: left;
+    }
+
+    .more {
+        width: 100%;
+        text-align: left;
+        margin: 25px;
+    }
+
+    .more a {
+        margin-left: 20px;
+    }
+
+
+    /*section-hostel*/
+
+    /*Section-activity*/
+
+    .container-activity {
+    }
+
+    .activity-image {
+
+    }
+
+    .activity-image.vieux-port {
+        height: 445px;
+        width: 300px;
+    }
+    /*Section-activity*/
+
 
     /*footer*/
+    footer {
+        position: absolute;
+        left: 0;
+        text-align: left;
+    }
     /*footer*/
-
 }
+
+@media all and (max-width: 1385px) {
+
+    /*section-hostel*/
+    .hostel h2 {
+        text-align: center;
+    }
+
+    .more {
+        text-align: center;
+    }
+    /*section-hostel*/
+}
+
+
 /*media queries*/
