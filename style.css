@@ -483,9 +483,19 @@ footer li:hover {
         flex-wrap: wrap;
     }
 
+    .column.first {
+        height: 250px;
+        order: 2;
+    }
+
+    .column.third {
+        position: relative;
+        height: 250px;
+        order: 1;
+    }
+
     .activity-card{
         width: 250px;
-        height: 300px;
         margin: 15px;
     }
     /*section-activity*/
@@ -496,6 +506,18 @@ footer li:hover {
         justify-content: space-around;
     }
     /*footer*/
+}
+
+@media all and (min-width: 880px) {
+
+    .column.first {
+        order: 0;
+    }
+
+    .column.third {
+        position:relative;
+        top:-291px;
+    }
 }
 
 @media all and (min-width: 1080px) { 
@@ -512,8 +534,6 @@ footer li:hover {
     /*general*/
 
     /*header*/
-
-
     .header-item {
         margin-right: 25px;;
     }
@@ -607,33 +627,82 @@ footer li:hover {
 
 
     /*section-hostel*/
+    @media all and (min-width: 1260px) {
 
     /*Section-activity*/
-
-    .container-activity {
-    }
-
-    .activity-image {
-
-    }
-
-    .activity-image.vieux-port {
-        height: 445px;
-        width: 300px;
+    .activity-card {
+        width: 290px;
     }
     /*Section-activity*/
+    }
 
 
     /*footer*/
     footer {
-        position: absolute;
         left: 0;
         text-align: left;
     }
     /*footer*/
 }
 
-@media all and (max-width: 1385px) {
+@media all and (min-width: 1260px) {
+
+    /*Section-activity*/
+    .container-activity {
+        width: 1310px;
+        height:470px;
+    }
+    
+    .activity-card {
+        width: 290px;
+    }
+
+    .column {
+        margin-right: 7px;
+    }
+    
+    .activity-card.vieux-port {
+        margin-left: 10px;
+    }
+
+    .activity-card.vieux-port img {
+        height: 445px;
+    }
+
+    .activity-image.fort img {
+        height: 235px;
+        margin: 0;
+    }
+
+    .activity-image.frioul img {
+        height: 165px;
+    }
+
+    .activity-image.calanque {
+        height: 445px;
+    }
+
+    .column.third {
+        position: relative;
+        top:0px;
+    }
+
+    .activity-card {
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+
+    .activity-card.parc {
+        margin-top: -15px;
+    }
+    
+    .activity-card.frioul {
+        margin-top: -15px;
+    }
+    /*Section-activity*/
+}
+
+@media all and (max-width: 1410px) {
 
     /*section-hostel*/
     .hostel h2 {
