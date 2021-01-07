@@ -262,6 +262,10 @@ img {
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 
+.popular-card:hover {
+    border: 1px solid #0065fc;
+}
+
 .popular-photo {
     width: 100%;
     height: auto;
@@ -313,6 +317,10 @@ img {
     font-size: 0.8em;
     border-radius: 20px;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.hostel-card:hover {
+    border: 1px solid #0065fc;
 }
 
 .hostel-photo {
@@ -526,9 +534,9 @@ footer li:hover {
         top:-291px;
     }
 
-    footer {
-
-    }    
+    .container-activity {
+        height: 550px;
+    }  
 }
 
 @media all and (min-width: 1080px) { 
