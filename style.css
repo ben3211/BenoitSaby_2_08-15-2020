@@ -448,7 +448,9 @@ footer li:hover {
         margin-right: 5px;
     }
 
-    .filter .filter-menu .filter-items.famille{
+    .filter .filter-menu .filter-items.famille {
+        position: relative;
+        top:-8px;
         margin: auto;
         margin-right: 5px;
         margin-left: 5px;
@@ -527,6 +529,7 @@ footer li:hover {
 
 @media all and (min-width: 880px) {
 
+    /*section-activity*/
     .column.first {
         order: 0;
     }
@@ -539,6 +542,14 @@ footer li:hover {
     .container-activity {
         height: 550px;
     }  
+    /*section-activity*/
+
+    /*footer*/
+    .footer {
+        margin-right: 100px;
+    }
+    /*footer*/
+
 }
 
 @media all and (min-width: 1080px) { 
@@ -740,6 +751,12 @@ footer li:hover {
         margin-top: -15px;
     }
     /*Section-activity*/
+
+    /*footer*/
+    .footer {
+        margin-right: 200px;
+    }
+    /*footer*/
 }
 
 @media all and (max-width: 1410px) {
@@ -754,6 +771,4 @@ footer li:hover {
     }
     /*section-hostel*/
 }
-
-
 /*media queries*/
