@@ -692,6 +692,12 @@ footer li:hover {
     .activity-card {
         width: 290px;
     }
+
+    .column.third {
+        order: 0;
+    }
+
+
     /*Section-activity*/
     }
 }
