@@ -640,7 +640,7 @@ footer li:hover {
     .popular-card {
         margin: 25px;
     }
-
+    
     /*aside-popular*/
 
     /*section-hostel*/
@@ -696,8 +696,6 @@ footer li:hover {
     .column.third {
         order: 0;
     }
-
-
     /*Section-activity*/
     }
 }
