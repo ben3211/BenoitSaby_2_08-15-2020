@@ -1,9 +1,10 @@
-# Intégration maquette Reservia
+# integration model 
 
 ## Reservia
 ![](public/img/reservia.png)
 
 ***
+:gb:
 :fr:  
 ### 🔍 Fonctionalités
 
