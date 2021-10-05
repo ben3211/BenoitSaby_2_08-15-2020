@@ -18,6 +18,9 @@ I used **HTML5** for the website struture.
 
 ### 🛠️ &nbsp; Installation
 * Clone the following repository [GitHub](https://github.com/ben3211/Reservia).
+```terminal
+git clone https://github.com/ben3211/Reservia.git
+```
 
 ***
 :fr:  
@@ -35,3 +38,6 @@ Les **Media-queries**, ce sont des requêtes permettant de modifier l’apparenc
 
 ### 🛠️ &nbsp; Installation
 * Cloner le repository suivant [GitHub](https://github.com/ben3211/Reservia).
+```terminal
+git clone https://github.com/ben3211/Reservia.git
+```
